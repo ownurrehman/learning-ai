@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #4B0082;
+  --secondary-color: #00bcd4;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: #333;
+}
+.navbar {
+  background: var(--primary-color);
+  padding: 1rem;
+}
+.navbar a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
